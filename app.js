@@ -46,12 +46,8 @@ function playRound(playerSelection = prompt('Your choice:', '').toLowerCase(), c
 declares a winner or loser at the end */
 
 function game(){
-    // There should be a counter
-    // Counter should increment by 1 after every round
-    // When the counter hits 5, the game is over
 
     // There should be a loop which triggers the counter incrementation
-    // Maybe I could use two counters, one for each player
 
     for(let i = 0; i < 5; i++){
         if(i <= 5){
